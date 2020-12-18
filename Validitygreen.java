@@ -26,7 +26,6 @@ System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 		Thread.sleep(2000);
 		driver.findElement(By.id("mtscontact_message")).sendKeys("My favourite food is Biriyani");
 		Thread.sleep(2000);
-		Thread.sleep(2000);
 		driver.findElement(By.id("mtscontact_submit")).click();
 		Thread.sleep(15000);
 		driver.quit();
